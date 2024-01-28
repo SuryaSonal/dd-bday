@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-black-friday-black-gold-metal-technology-image_18510.jpg");
+    height: 180px;
+    text-align: center;
+    font-size: 60px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    color: whitesmoke;
+    text-shadow: 10PX 10PX 15PX goldenrod;
+    
+}
+body{
+    background-color: black;
+    /*background-image: url("https://cdn.vectorstock.com/i/preview-1x/57/68/gold-glitter-particles-black-background-christmas-vector-27185768.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background:linear-gradient(40deg, goldenrod,white,goldenrod);
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.nav a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    flex: auto;
+    padding: 10px;
+    text-align: center;
+}
+.nav a:hover{
+    color: black;
+    font-size: 30px;
+    background-color: goldenrod;
+    font-weight: bold;
+}
+.pics{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px black;
+    background-size: cover;
+    /*background-image: radial-gradient(circle black goldenrod);
+    background:linear-gradient(black grey) url(C:/Users/surya/Desktop/dd/IMG-20240128-WA0047.jpg) no-repeat fixed top left;*/
+
+}
+/*
+.dd-pic1{
+    margin:50px;
+    background-image: url("C:/Users/surya/Desktop/dd/IMG-20240128-WA0047.jpg");
+}
+.dd-pic2{
+    background-image: url("C:/Users/surya/Desktop/dd/IMG-20240128-WA0050.jpg");
+    height: 600px;
+    width: 400px;
+    border-radius: 20%;
+    box-shadow: 10px 10px 15px black;
+    background-size: cover;
+    margin-left: 500px;
+    
+}
+*/
